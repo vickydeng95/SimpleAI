@@ -7,3 +7,9 @@ In command line, please run
 ```python
   deepspeed --include localhost:3 --master_port 3010 llama_finetune.py; 
 ```
+
+- `internlm2_finetune.py`: for internlm2. 
+In command line, please run 
+```python
+  deepspeed --include localhost:3 --master_port 3010 internlm2_finetune.py; 
+```
